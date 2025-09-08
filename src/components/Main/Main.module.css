@@ -1,0 +1,38 @@
+.banner{
+    margin: 0;
+    padding: 10px;
+    /* max-width:max-content; */
+    height: 80vh;
+    background-color: rgba(234, 248, 34, 0.822);
+}
+.message{
+    font-size: 3rem;
+    text-align: left;
+    margin-top: 30px;
+}
+.text{
+    font-size: 2rem;
+    text-align:left;
+    margin-top: 10px;
+    color: red;
+}
+.get_started{
+    height: 10vh;
+    font-size: 1.7rem;
+    font-weight: 600;
+    border: 1px ridge rgb(106, 106, 224);
+    background-color: aquamarine;
+    letter-spacing: 0.2rem;
+    position: absolute;
+    bottom: 120px;
+    right: 70px;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.get_started:hover{
+    transform: scale(1.08);
+}
+.why{
+    margin: 40px;
+    font-size: 3rem;
+}

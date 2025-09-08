@@ -1,0 +1,14 @@
+footer {
+  background: #6683a0; /* light gray background */
+  padding: 1rem 2rem;
+  width: 100%;
+  color: rgb(56, 55, 55);
+  height: 20vh;
+}
+
+footer .nav a:hover {
+  color: #007bff; /* Bootstrap blue on hover */
+}
+.icon{
+  font-size: 2rem;
+}

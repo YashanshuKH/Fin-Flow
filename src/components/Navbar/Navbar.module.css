@@ -1,0 +1,46 @@
+/* Navbar.module.css */
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: linear-gradient(90deg, #007bff, #6610f2);
+  padding: 0.8rem 1rem;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+body{
+  margin-top: 60px;
+}
+/* Target Bootstrap's nav-link globally */
+.navbar :global(.nav-link) {
+  color: #fff !important;
+  font-weight: 500;
+  margin: 0 10px;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navbar :global(.nav-link:hover) {
+  color: #ffdd57 !important;
+}
+
+.navbar :global(.nav-link::after) {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #ffdd57;
+  transition: width 0.3s;
+  margin: auto;
+}
+
+.navbar :global(.nav-link:hover::after) {
+  width: 100%;
+}
+
+.navbar :global(.nav-link.active) {
+  color: #ffdd57 !important;
+  font-weight: 600;
+}
