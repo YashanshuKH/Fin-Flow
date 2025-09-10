@@ -1,10 +1,10 @@
 import styles from "./Landing.module.css"
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-import Dashboard from "../Dashboard/dashboard"; 
+// import Dashboard from "../Dashboard/dashboard"; 
 import { Link } from "react-router-dom";
-
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import Individual from "../Graphs/Individual"
 
 const Main = () => {
   return (
@@ -44,6 +44,7 @@ const Main = () => {
         <Footer />
       </section>
       
+      <Individual />
     </div>
   );
 };
