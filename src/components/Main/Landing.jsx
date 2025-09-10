@@ -1,6 +1,7 @@
 import styles from "./Landing.module.css"
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
+import Dashboard from "../Dashboard/dashboard"; 
 import { Link } from "react-router-dom";
 
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
@@ -42,7 +43,7 @@ const Main = () => {
       <section id="contact">
         <Footer />
       </section>
-      
+      <Dashboard />
     </div>
   );
 };
