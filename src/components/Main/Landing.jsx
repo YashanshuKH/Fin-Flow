@@ -44,7 +44,7 @@ const Main = () => {
         <Footer />
       </section>
       
-      <Individual />
+
     </div>
   );
 };
