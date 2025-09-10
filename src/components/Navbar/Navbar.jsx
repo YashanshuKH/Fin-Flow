@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./Navbar.module.css"; // custom CSS Module
 import { Link } from "react-router-dom";
 
@@ -34,14 +33,14 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/contact">
+              <a className="nav-link" href="#contact">
                 Contact
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/aboutus">
+              <a className="nav-link" href="#about-us">
                 About Us
-              </Link>
+              </a>
             </li>
           </ul>
 
