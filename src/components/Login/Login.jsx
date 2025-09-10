@@ -6,7 +6,7 @@ import styles from "./Login.module.css";
 const Login = () => {
   return (
     <div className={styles.body}>
-      <h2 className={styles.title}>Sign In</h2>
+      <h2 className={styles.title}>Log In</h2>
       <form onSubmit={(e) => e.preventDefault()} className={styles.form}>
           <div className={styles.formGroup}>
             <label htmlFor="firstname">
@@ -41,7 +41,7 @@ const Login = () => {
           </div>
         
         <button type="submit" className={styles.submitBtn}>
-          Sign in
+          Log in
         </button>
         <center className={styles.not}>Don't Have an Account ? <span className={styles.signup}>Sign Up</span></center>
       </form>
