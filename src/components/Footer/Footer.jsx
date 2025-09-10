@@ -16,19 +16,20 @@ const Footer = () => {
     </Link>
     <span className="text-body-secondary">© 2025 Company, Inc</span>
   </div>
+ 
+     <div className="d-flex align-items-center">
+    <div className="me-4 text-end">
+          <p className="mb-0 text-body-secondary">
+            Email: <a className={styles.link} href="mailto:finflow@gmail.com">finflow@gmail.com</a>
+          </p>
+          <p className="mb-0 text-body-secondary">
+            Contact: <a className={styles.link} href="tel:9865321475"> 9865321475"</a>
+          </p>
+        </div>
 
-  <ul className="nav justify-content-end list-unstyled d-flex">
-    <li className="ms-3">
-      <Link className={`text-body-secondary ${styles.icon}`} to="#" aria-label="Instagram">
-        <FaInstagram />
-      </Link>
-    </li>
-    <li className="ms-3">
-      <Link className={`text-body-secondary ${styles.icon}`} to="#" aria-label="Facebook">
-        <AiOutlineFacebook />
-      </Link>
-    </li>
-  </ul>
+      </div>
+
+
 </footer>
 
   );

@@ -1,14 +1,17 @@
 footer {
-  background: #6683a0; /* light gray background */
+  background: #4e6a86; /* footer background */
   padding: 1rem 2rem;
   width: 100%;
-  color: rgb(56, 55, 55);
-  height: 20vh;
+  color: rgb(0, 0, 0);
+  height: 16vh;
+}
+.link {
+  color: #ffffff; /* white text to stand out on background */
+  text-decoration: none;
+  font-weight: 500;
 }
 
-footer .nav Link:hover {
-  color: #007bff; /* Bootstrap blue on hover */
-}
-.icon{
-  font-size: 2rem;
+.link:hover {
+  text-decoration: underline;
+  color: #007bff; /* Bootstrap blue hover */
 }
