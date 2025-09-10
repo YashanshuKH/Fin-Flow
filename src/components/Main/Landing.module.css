@@ -2,10 +2,13 @@
     margin: 0;
     padding: 10px;
     /* max-width:max-content; */
-    height: 80vh;
-    background-color: rgba(234, 248, 34, 0.822);
+    height: 91vh;
+    background-image: url("./banner1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .message{
+    color: #DDD5D0;
     font-size: 3rem;
     text-align: left;
     margin-top: 30px;

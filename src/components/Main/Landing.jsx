@@ -1,6 +1,7 @@
-import styles from "./Main.module.css"
+import styles from "./Landing.module.css"
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
+import { Link } from "react-router-dom";
 
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
@@ -14,9 +15,9 @@ const Main = () => {
       <div  className={`text-center p-5 ${styles.banner}`}>
         <h1 className={styles.message}>Welcome to Fin Flow</h1>
         <h1 className={styles.text}>Anonymous text</h1>
-        <button  className= {styles.get_started}>
+        <button  className= {styles.get_started}><Link to="login">
           Get Started <MdOutlineKeyboardArrowRight className={styles.arrow} />
-
+</Link>
         </button>
       </div>
 

@@ -6,12 +6,15 @@ import { FaRegAddressCard, FaAddressBook, FaCity } from "react-icons/fa";
 import { MdAlternateEmail } from "react-icons/md";
 import { CgCalendarDates, CgPassword } from "react-icons/cg";
 import { TbMapPinCode, TbBuildingEstate, TbLockPassword } from "react-icons/tb";
+import Navbar from "../Navbar/Navbar";
 
 import styles from "./Signup.module.css";
 
 const Signup = () => {
   return (
+    
     <div className={styles.body}>
+      <Navbar />
       <h2 className={styles.title}>Sign Up</h2>
       <form onSubmit={(e) => e.preventDefault()} className={styles.form}>
         <div className={styles.row}>
@@ -83,7 +86,7 @@ const Signup = () => {
             name="pannumber"
             placeholder="PAN Number"
             maxLength={10}
-            pattern="[A-Z0-9]{10}"
+            pattern="[Link-Z0-9]{10}"
             required
           />
         </div>

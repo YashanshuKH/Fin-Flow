@@ -2,10 +2,13 @@ import { IoPersonSharp } from "react-icons/io5";
 import { CiMobile1 } from "react-icons/ci";
 import { CgPassword } from "react-icons/cg";
 import styles from "./Login.module.css";
+import { Link } from "react-router-dom";
+import Navbar from "../Navbar/Navbar";
 
 const Login = () => {
   return (
     <div className={styles.body}>
+      <Navbar />
       <h2 className={styles.title}>Log In</h2>
       <form onSubmit={(e) => e.preventDefault()} className={styles.form}>
           <div className={styles.formGroup}>
@@ -43,7 +46,7 @@ const Login = () => {
         <button type="submit" className={styles.submitBtn}>
           Log in
         </button>
-        <center className={styles.not}>Don't Have an Account ? <span className={styles.signup}>Sign Up</span></center>
+        <center className={styles.not}>Don't Have an Account ? <Link className={styles.signup} to="/signup">Sign Up</Link></center>
       </form>
       
     </div>

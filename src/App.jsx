@@ -1,12 +1,17 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";       // bootstrap js (includes Popper)
-
+import { Routes, Route } from "react-router-dom";
+import Main from "./components/Main/Landing";
+import Signup from "./components/Signup/Signup";
 import Login from "./components/Login/Login";
-import Main from "./components/Main/main";
 
 function App() {
   return (
-    <Main />
-  )
+    <Routes>
+      <Route path="/" element={<Main />} />
+      <Route path="/login" element={<Login />} />
+
+      <Route path="/signup" element={<Signup />} />
+    </Routes>
+  );
 }
-export default App 
+
+export default App;

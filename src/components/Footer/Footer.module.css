@@ -6,7 +6,7 @@ footer {
   height: 20vh;
 }
 
-footer .nav a:hover {
+footer .nav Link:hover {
   color: #007bff; /* Bootstrap blue on hover */
 }
 .icon{

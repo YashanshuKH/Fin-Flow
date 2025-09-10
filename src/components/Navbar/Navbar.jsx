@@ -1,14 +1,17 @@
 import React from "react";
 import styles from "./Navbar.module.css"; // custom CSS Module
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav className={`navbar navbar-expand-lg navbar-dark ${styles.navbar}`}>
       <div className="container-fluid">
-        <a className="navbar-brand fw-bold text-white" href="#">
+        {/* Brand */}
+        <Link className="navbar-brand fw-bold text-white" to="/">
           Fin Flow
-        </a>
+        </Link>
 
+        {/* Toggle button for mobile */}
         <button
           className="navbar-toggler"
           type="button"
@@ -26,33 +29,34 @@ const Navbar = () => {
           {/* Left side */}
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" href="#">
+              <Link className="nav-link active" to="/">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/contact">
                 Contact
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/aboutus">
                 About Us
-              </a>
+              </Link>
             </li>
           </ul>
 
           {/* Right side */}
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              {/* Use /help route if you have one, else make it <a href="#"> */}
+              <Link className="nav-link" to="/help">
                 Help
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="btn btn-warning px-3 ms-2" href="#">
-                Sign Up
-              </a>
+              <Link className="btn btn-warning px-3 ms-2" to="/login">
+                Log In
+              </Link>
             </li>
           </ul>
         </div>
