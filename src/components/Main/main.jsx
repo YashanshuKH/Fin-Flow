@@ -1,6 +1,7 @@
 import styles from "./Main.module.css"
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
+
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 const Main = () => {
