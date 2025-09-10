@@ -2,8 +2,8 @@ import styles from "./Landing.module.css"
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import { Link } from "react-router-dom";
-
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+
 
 const Main = () => {
   return (
@@ -42,7 +42,11 @@ const Main = () => {
       <section id="contact">
         <Footer />
       </section>
+      <div className={styles.charts}>
+       
+       
       
+      </div>
     </div>
   );
 };
