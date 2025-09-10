@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./Navbar.module.css"; // custom CSS Module
 import { Link } from "react-router-dom";
 
@@ -6,12 +5,10 @@ const Navbar = () => {
   return (
     <nav className={`navbar navbar-expand-lg navbar-dark ${styles.navbar}`}>
       <div className="container-fluid">
-        {/* Brand */}
         <Link className="navbar-brand fw-bold text-white" to="/">
           Fin Flow
         </Link>
 
-        {/* Toggle button for mobile */}
         <button
           className="navbar-toggler"
           type="button"
@@ -24,10 +21,8 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        {/* Navbar Links */}
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          {/* Left side */}
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <Link className="nav-link active" to="/">
                 Home
@@ -45,11 +40,9 @@ const Navbar = () => {
             </li>
           </ul>
 
-          {/* Right side */}
-          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              {/* Use /help route if you have one, else make it <a href="#"> */}
-              <Link className="nav-link" to="/help">
+               <Link className="nav-link" to="/help">
                 Help
               </Link>
             </li>
