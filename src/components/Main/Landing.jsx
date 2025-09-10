@@ -24,10 +24,10 @@ const Main = () => {
       
       <h2 className= {styles.why}>Why Us</h2>
       <div id="a2" className="d-flex justify-content-around flex-wrap ">
-        <div className="card p-3 m-2 shadow-sm">Reason 1</div>
-        <div className="card p-3 m-2 shadow-sm">Reason 2</div>
-        <div className="card p-3 m-2 shadow-sm">Reason 3</div>
-        <div className="card p-3 m-2 shadow-sm">Reason 4</div>
+        <div className={styles.whyusbox} id={styles.reason1}>Reason 1</div>
+        <div className={styles.whyusbox} id={styles.reason2}>Reason 2</div>
+        <div className={styles.whyusbox} id={styles.reason3}>Reason 3</div>
+        <div className={styles.whyusbox} id={styles.reason4}>Reason 4</div>
       </div> 
 
       <Footer />
