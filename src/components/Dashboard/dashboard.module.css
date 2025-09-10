@@ -1,0 +1,31 @@
+.dashboard{
+  width: 80vw;
+  position: absolute;
+  right: 0;
+  background-color: aqua;
+}
+
+.dashboard0{
+  width: 80vw;
+  position: absolute;
+  right: 0;
+  background-color: aqua;
+  display: flex;
+    justify-content: flex-start;
+}
+
+.dashboard1{
+    width: 25vw;
+    height: 80vh;
+    display : inline-block;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 10px grey;
+    transition: all 0.5s ease-in-out;
+    margin: 20px;
+}
+
+.dashboardheader{
+    margin: 20px;
+    margin-left: 25px;
+}
