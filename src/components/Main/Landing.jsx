@@ -43,7 +43,7 @@ const Main = () => {
       <section id="contact">
         <Footer />
       </section>
-      <Dashboard />
+      
     </div>
   );
 };
