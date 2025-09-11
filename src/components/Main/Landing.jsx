@@ -16,13 +16,13 @@ const Main = () => {
         <h1 className={styles.message}>Welcome to Fin Flow</h1>
         <h1 className={styles.text}>Finance on your fingertips</h1>
         <button className={styles.get_started}>
-          <Link to="login">
+          <Link to="login" className={styles.link}>
             Get Started <MdOutlineKeyboardArrowRight className={styles.arrow} />
           </Link>
         </button>
       </div>
 
-      <section id="about-us">
+      <section id="about-us" className={styles.aboutus}>
         <h2 className={styles.why}>Why Us</h2>
         <div id="a2" className="d-flex justify-content-around flex-wrap ">
           <div className={styles.whyusbox} id={styles.reason1}><span className={styles.userexp}>
