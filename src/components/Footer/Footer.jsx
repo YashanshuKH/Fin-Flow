@@ -23,7 +23,7 @@ const Footer = () => {
             Email: <a className={styles.link} href="mailto:finflow@gmail.com">finflow@gmail.com</a>
           </p>
           <p className="mb-0 text-body-secondary">
-            Contact: <a className={styles.link} href="tel:9865321475"> 9865321475"</a>
+            Contact: <a className={styles.link} href="tel"> 9865321475</a>
           </p>
         </div>
 
