@@ -24,7 +24,7 @@
   background-color: #d6d9d3;
   /* box-shadow: 0px 0px 5px grey; */
   transition: all 0.5s ease-in-out;
-  margin: 20px;
+  /* margin: 20px; */
 }
 
 .dashboardheader {
@@ -52,13 +52,11 @@
   margin-top: 0;
 }
 .loans{
-  height: 20%;
+  height: 30%;
 }
-.emi{
-  height: 20%;
-}
+
 .insurance{
-  height: 20%;
+  height: 30%;
 }
 .income{
   height: 60%;

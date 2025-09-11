@@ -20,7 +20,6 @@ const dashboard = () => {
           <div className={styles.dashboard1}>
             <div className={` ${styles.bankacc} ${styles.overall}`}>hello</div>
             <div className={` ${styles.loans} ${styles.overall}`}></div>
-            <div className={` ${styles.emi} ${styles.overall}`}></div>
             <div className={` ${styles.insurance} ${styles.overall}`}></div>
           </div>
           <div className={styles.dashboard1}>
