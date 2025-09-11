@@ -17,14 +17,14 @@
     font-size: 2rem;
     text-align:left;
     margin-top: 10px;
-    color: red;
+    color: whitesmoke;
 }
 .get_started{
     height: 10vh;
     font-size: 1.7rem;
     font-weight: 600;
-    border: 1px ridge rgb(106, 106, 224);
-    background-color: aquamarine;
+    border: 1px ridge 1C1C1C;
+    background-color: E8EBED;
     letter-spacing: 0.2rem;
     position: absolute;
     bottom: 120px;
