@@ -1,40 +1,80 @@
-.dashboard{
+.dashboard {
   width: 81.9vw;
   position: absolute;
   right: 0;
-  color: #B8C5D6;
-  background-color: #1b2e35;
-
+  color: #1b263b;
+  background-color: #d6d9d3;
 }
 
-.dashboard0{
+.dashboard0 {
   width: 81.9vw;
+  height: auto;
   position: absolute;
   right: 0;
-  background-color: #1b2e35;
+  background-color: #d6d9d3;
   display: flex;
   justify-content: flex-start;
 }
 
-.dashboard1{
-    width: 25vw;
-    height: 80vh;
-    display : inline-block;
-    border: 1px ridge black;
-    border-radius: 10px;
-    background-color: rgb(161, 171, 179);
-    box-shadow: 0px 0px 8px grey;
-    transition: all 0.5s ease-in-out;
-    margin: 20px;
+.dashboard1 {
+  width: 25vw;
+  height: 80vh;
+  display: inline-block;
+  border: none;
+  background-color: #d6d9d3;
+  /* box-shadow: 0px 0px 5px grey; */
+  transition: all 0.5s ease-in-out;
+  margin: 20px;
 }
 
-.dashboardheader{
-    margin: 20px;
-    margin-left: 25px;
+.dashboardheader {
+  font-size: 5rem;
+  margin: 20px;
+  margin-left: 25px;
 }
-.heading{
+.heading {
   font-size: 1.5rem;
 }
-.boxes{
+.boxes {
   width: 80vw;
+}
+
+.overall{
+  width: auto;
+  border: 0.5px solid grey;
+  box-shadow: 0px 0px 4px black ;
+  border-radius: 10px;
+  margin:15px;
+}
+
+.bankacc{
+  height: 40%;
+  margin-top: 0;
+}
+.loans{
+  height: 20%;
+}
+.emi{
+  height: 20%;
+}
+.insurance{
+  height: 20%;
+}
+.income{
+  height: 60%;
+  margin-top: 0;
+
+}
+.flow{
+  height: 40%;
+}
+.expense{
+  height: 50%;
+  margin-top: 0;
+}
+.mutual{
+  height: 25%;
+}
+.equity{
+  height: 25%;
 }
