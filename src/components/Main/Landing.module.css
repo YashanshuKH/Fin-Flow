@@ -1,78 +1,97 @@
-.banner{
-    margin: 0;
-    padding: 10px;
-    /* max-width:max-content; */
-    height: 91vh;
-    background-image: url("./banner1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caveat:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Michroma&family=Outfit:wght@100..900&family=Permanent+Marker&family=Playwrite+AU+QLD:wght@100..400&family=Qwitcher+Grypen:wght@400;700&family=Rokkitt:ital,wght@0,100..900;1,100..900&family=Truculenta:opsz,wght@12..72,100..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+.banner {
+  margin: 0;
+  padding: 10px;
+  /* max-width:max-content; */
+  height: 91vh;
+  background-image: url("./banner1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.message{
-    color: #DDD5D0;
-    font-size: 3rem;
-    text-align: left;
-    margin-top: 30px;
+.message {
+  color: #e8ebed;
+  font-size: 3rem;
+  text-align: left;
+  margin-top: 30px;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 380;
+  font-style: normal;
 }
-.text{
-    font-size: 2rem;
-    text-align:left;
-    margin-top: 10px;
-    color: whitesmoke;
+.text {
+  font-size: 2rem;
+  text-align: left;
+  margin-top: 10px;
+  color: #e8ebed;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 320;
+  font-style: normal;
 }
-.get_started{
-    height: 10vh;
-    font-size: 1.7rem;
-    font-weight: 600;
-    border: 1px ridge 1C1C1C;
-    background-color: E8EBED;
-    letter-spacing: 0.2rem;
-    position: absolute;
-    bottom: 120px;
-    right: 70px;
-    border-radius: 20px;
-    transition: all 0.5s ease-in-out;
+.get_started {
+  height: 10vh;
+  font-size: 1.7rem;
+  font-weight: 600;
+  border: 1px ridge #1c1c1c;
+  background-color: #d5dbd5;
+  letter-spacing: 0.2rem;
+  position: absolute;
+  bottom: 120px;
+  right: 70px;
+  border-radius: 20px;
+  transition: all 0.5s ease-in-out;
+  text-decoration: none;
 }
-.get_started:hover{
-    transform: scale(1.08);
+.get_started:hover {
+  transform: scale(1.08);
 }
-.why{
-    margin: 40px;
-    font-size: 3rem;
+.why {
+  margin: 40px;
+  font-size: 3rem;
+}
+.aboutus{
+    margin-bottom: 40px;
+}
+.whyusbox {
+  width: 250px;
+  height: 250px;
+  color: white;
+
+  align-items: left;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px grey;
+  transition: all 0.5s ease-in-out;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.whyusbox{
-    width: 250px;
-    height: 250px;
-    color: white;
-
-    align-items: left;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px grey;
-    transition: all 0.5s ease-in-out;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
+#reason1 {
+  background-image: url("./security.jpg");
 }
 
+#reason2 {
+  background-image: url("./partnership.jpg");
+}
+#reason3 {
+  background-image: url("./userControl.jpg");
+}
+#reason4 {
+  background-image: url("./reliable.jpg");
+}
+.whyusbox:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 4px 20px grey;
+  filter: blur(5px);
+}
+.userexp {
+  opacity: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+.userexp:hover {
+  opacity: 1;
+}
+.link {
+  text-decoration: none;
+    color: black;
 
-#reason1{
-    background-image: url("./security.jpg");
-    
-}
-
-#reason2{
-    background-image: url("./partnership.jpg");
-}
-#reason3{
-    background-image: url("./userControl.jpg");
-
-    
-}
-#reason4{
-    background-image: url("./reliable.jpg");
-}
-.whyusbox:hover{
-    transform: scale(1.05);
-    box-shadow: 4px 4px 20px grey;
 }
