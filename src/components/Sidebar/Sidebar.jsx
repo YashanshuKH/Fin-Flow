@@ -1,4 +1,5 @@
 import styles from "./Sidebar.module.css";
+import { HashLink } from "react-router-hash-link";
 import {
   FaHome,
   FaExchangeAlt,
@@ -16,14 +17,11 @@ const Sidebar=()=> {
       <div className={styles.logo}>Dashboard</div>
 
       <ul className={styles.sidebar_menu}>
-        <li className="active"><FaHome className="icon" /><span>Dashboard</span></li>
+        <li className="active"><FaHome className="icon" /><HashLink className={styles.sidebar_link} smooth to="/dashboard">Dashboard</HashLink></li>
         <li><FaExchangeAlt className="icon" /><span>Transactions</span></li>
         <li><FaChartPie className="icon" /><span>Investments</span></li>
-        <li><FaChartBar className="icon" /><span>Reports</span></li>
-        <li><FaCog className="icon" /><span>Settings</span></li>
-      </ul>
-
-      <div className={styles.section}>
+        
+          <div className={styles.section}>
         <h4>Loans</h4>
         <ul className={styles.sidebar_menu}>
           <li><FaMoneyCheck className="icon" /><span>Loan 1</span></li>
@@ -33,8 +31,9 @@ const Sidebar=()=> {
       <div className={styles.section}>
         <h4>Insurance</h4>
         <ul className={styles.sidebar_menu}>
-          <li><FaFileInvoice className="icon" /><span>Home</span></li>
-                    <li><FaFileInvoice className="icon" /><span>Medical</span></li>
+          <li><FaFileInvoice className="icon" /><HashLink className={styles.sidebar_link} smooth to="/insurance#life">Life</HashLink></li>
+          <li><FaFileInvoice className="icon" /><HashLink className={styles.sidebar_link} smooth to="/insurance#medical">Medical</HashLink></li>
+          <li><FaFileInvoice className="icon" /><HashLink className={styles.sidebar_link} smooth to="/insurance#vehicle">Vehicle</HashLink></li>
         </ul>
       </div>
 
@@ -44,6 +43,13 @@ const Sidebar=()=> {
           <li><FaShieldAlt className="icon" /><span>Enquiry Fund</span></li>
         </ul>
       </div>
+
+      <hr />
+
+        <li><FaChartBar className="icon" /><span>Reports</span></li>
+        <li><FaCog className="icon" /><span>Settings</span></li>
+      </ul>
+
     </aside>
   );
 }
