@@ -52,11 +52,13 @@ const options = {
     title: {
       display: true,
       text: "Expenses",
-      align: "start",
+      align: "center",
       font: {
-        size: 18,
+        size: 20,
         weight: "bold",
       },
+      color: "#111",
+      
     },
   },
   scales: {
