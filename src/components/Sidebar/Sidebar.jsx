@@ -24,7 +24,9 @@ const Sidebar=()=> {
           <div className={styles.section}>
         <h4>Loans</h4>
         <ul className={styles.sidebar_menu}>
-          <li><FaMoneyCheck className="icon" /><span>Loan 1</span></li>
+          <li><FaMoneyCheck className="icon" /><span>Home Loan</span></li>
+          <li><FaMoneyCheck className="icon" /><span>Car Loan</span></li>
+          <li><FaMoneyCheck className="icon" /><span>Personal Loan</span></li>
         </ul>
       </div>
 
