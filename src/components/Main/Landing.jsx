@@ -5,6 +5,7 @@ import Footer from "../Footer/Footer";
 import { Link } from "react-router-dom";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import Individual from "../Graphs/Individual";
+import UNavbar from "../User_navbar/UNavbar";
 
 const Main = () => {
   return (
@@ -78,6 +79,7 @@ const Main = () => {
       <section id="contact">
         <Footer />
       </section>
+      
     </div>
   );
 };
