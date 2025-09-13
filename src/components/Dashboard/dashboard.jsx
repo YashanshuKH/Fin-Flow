@@ -5,6 +5,7 @@ import Expenses from "../Graphs/Expenses";
 import Individual from "../Graphs/Individual";
 import Cashflow from "../Graphs/Cashflow";
 
+
 const dashboard = () => {
   return (
     <div className={styles.main}>
