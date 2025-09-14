@@ -17,10 +17,7 @@ function App() {
       
       <Route path="/insurance" element={<Insurance />} />
 
-
-      <Route path="/signup" element={<Signup />} />
-      <Route path="/dashboard" element={<Dashboard />} />
-
+>>>>>>>>> Temporary merge branch 2
     </Routes>
   );
 }

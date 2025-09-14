@@ -1,6 +1,6 @@
 import styles from "./dashboard.module.css";
 import Sidebar from "../Sidebar/Sidebar";
-import Navbar from "../Navbar/Navbar";
+import UNavbar from "../User_navbar/UNavbar";
 import Expenses from "../Graphs/Expenses";
 import Individual from "../Graphs/Individual";
 import Cashflow from "../Graphs/Cashflow";
@@ -9,7 +9,7 @@ import Cashflow from "../Graphs/Cashflow";
 const dashboard = () => {
   return (
     <div className={styles.main}>
-      <Navbar />
+      <UNavbar />
       <div>
         <Sidebar />
       </div>
